@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { BiLogoLinkedin, BiLogoGmail } from "react-icons/Bi";
 import { BsWhatsapp } from "react-icons/Bs";
@@ -7,11 +7,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Banner = () => {
-  AOS.init({
-    easing: "ease-out-quart",
-    delay: 0,
-    duration: 750,
-  });
+  useEffect (()=>{
+    AOS.init({
+      easing: "ease-out-quart",
+      delay: 0,
+      duration: 750,
+    })
+  },[])
+  
   return (
     <div
       data-aos="fade-up"

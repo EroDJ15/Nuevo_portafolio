@@ -18,7 +18,7 @@ const About = () => {
         className="h-min flex-grow lg:items-center items text-white lg:py-0 text-center gap-6 lg-tex-center flex lg:flex-row flex-co-reverse justify-left lg:gap-32 items-center"
       >
         <img
-          src="/public/image/19362653-768x432.jpg"
+          src="/image/19362653-768x432.jpg"
           className="rounded-full border-4 p-1 border-primary img_glow left-1 lg:relative justify-self-center w-36 h-36 lg:w-52 lg:h-52 -top-7" // Agregada la clase mt-4 para ajustar la posición vertical
           alt=""
         />
