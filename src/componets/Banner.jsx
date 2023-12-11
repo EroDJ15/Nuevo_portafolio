@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
-import { BiLogoLinkedin, BiLogoGmail } from "react-icons/Bi";
-import { BsWhatsapp } from "react-icons/Bs";
+import { BiLogoLinkedin, BiLogoGmail } from "react-icons/bi";
+import { BsWhatsapp } from "react-icons/bs";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
