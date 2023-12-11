@@ -16,9 +16,9 @@ const Banner = () => {
   },[])
   
   return (
-    <div
+    <div id='home'
       data-aos="fade-up"
-      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-co-reverse justify-between lg:gap-28 items-center"
+      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center sm:flex-row"
     >
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items text-white">
         <h1 className="text-[40px] font-semibold mb-8 leading-normal text-left">

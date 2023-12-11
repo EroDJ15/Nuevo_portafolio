@@ -5,7 +5,7 @@ const About = () => {
     <div
       data-aos="fade-right"
       id="about"
-      className="px-6 lg:px-60"
+      className="px-10 lg:px-60 p-20 lg:mt-20"
       style={{ position: "relative", top: "-80px", left: "5px" }}
     >
       <div>
@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div
         data-aos="fade-down"
-        className="h-min flex-grow lg:items-center items text-white lg:py-0 text-center gap-6 lg-tex-center flex lg:flex-row flex-co-reverse justify-left lg:gap-32 items-center"
+        className="flex flex-col sm:flex-row items-center text-white text-center gap-6 lg:gap-32"
       >
         <img
           src="/image/19362653-768x432.jpg"
@@ -23,7 +23,7 @@ const About = () => {
           alt=""
         />
         <div data-aos="fade-left">
-          <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-col lg:items-start text-white lg:px-2 px-6 py-6 text-left gap-5 lg-tex-center flex lg:flex-row flex-co-reverse justify-between lg:gap-28 items-center">
+          <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-6 py-6 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
             {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
             delectus, ea aliquam itaque iusto illo quasi facere adipisci

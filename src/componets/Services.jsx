@@ -1,28 +1,22 @@
 import React from "react";
 
 const Services = () => {
-  return <div className="p-20 items-center justify-center">
-    <h1 className="text-[38px] font-semibold mb-20 leading-normal text-white">Services</h1>
-    <div className=" text-white font-normal">
-      <h2>Web Design</h2>
-      <h2>Web Development</h2> 
-      <h2>UI/UX Design</h2>
-      <h2>Mobile App Development</h2>
-      <h2>Branding</h2>
-      <h2>Digital Marketing</h2>
-      <h2>React</h2>
-      <h2>Node</h2>
-      <h2>Express</h2>
-      <h2>CSS3</h2>
-      <h2>HTML5</h2>
-      <h2>JavaScript</h2>
-      <h2>Python</h2>
+  return( 
+  <div id="services" data-aos="fade-right" className="p-0 lg:p-20 items-center justify-center flex-col">
+    <h1 data-aos="fade-down" className="text-[38px] font-semibold mb-5 lg:mb-5 leading-normal text-fuchsia-500 text-center">Services</h1>
+    <div data-aos="fade-up" className=" text-white font-normal grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-6 place-items-center p-6">
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">Web Development</h2> 
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 text-center w-32 border-2 border-white glow">Mobile App Development</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">React</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">Node</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">Express</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">CSS3</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">HTML5</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">JavaScript</h2>
+      <h2 className="text[20] flex items-center justify-center font-semibold rounded-xl h-20 w-32 text-center border-2 border-white glow">Python</h2>
     </div>
    
-
-
-
-  </div>;
-};
-
+  </div>
+  )
+}
 export default Services;

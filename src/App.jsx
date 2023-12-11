@@ -2,7 +2,9 @@ import React from "react";
 import Navbar from "./componets/Navbar";
 import Banner from "./componets/Banner";
 import About from "./componets/About";
-import Service from "./componets/Services";
+import Services from "./componets/Services";
+import Projects from "./componets/Projects";
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         <Navbar />
         <Banner />
         <About />
-        <Service/>
+        <Services/>
+        <Projects/>
 
 
       </main>

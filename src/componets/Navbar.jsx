@@ -1,10 +1,11 @@
-import React, { useState, useMemo, useCallback } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { FaGripVertical } from "react-icons/fa";
 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const HandleClick = useCallback(() => setClick(!click), [click]);
 
@@ -14,7 +15,7 @@ function Navbar() {
         <div className="text-white font-serif lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
           <ul className="text-center text-xl p-20">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              <Link spy={true} smooth={true} to="services">
+              <Link activeClass="active" spy={true} smooth={true} to="services">
                 Services
               </Link>
             </li>
@@ -39,14 +40,29 @@ function Navbar() {
     );
   }, [click]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      if (isScrolled !== scrolled) {
+        setScrolled(!scrolled);
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolled]);
+
   return (
-    <nav>
+    <nav className={`fixed top-0 w-full z-50 ${scrolled ? 'bg-slate-900' : ''}`}>
       <div className="h-10vh justify-between z-50 text-white lg:py-2 px-20 py-2">
         <div className="text-3xl font-bold flex-1 -ml-6">
-          <div>
+          <div data-aos="fade-right">
             <img
               src="/image/logo1.png"
-              className="left-1 lg:relative w-16 h-16 lg:w-25 lg:h-25 mt-2" // Aquí usas las clases de Tailwind para definir el ancho y el alto de la imagen según el breakpoint
+              className="left-1 lg:relative w-16 h-16 lg:w-25 lg:h-25 mt-2"
               alt=""
             />
           </div>
@@ -65,7 +81,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 cursor-pointer">
-                <Link spy={true} smooth={true} to="services">
+                <Link activeClass="active"  spy={true} smooth={true} to="services">
                   Services
                 </Link>
               </li>
@@ -74,7 +90,6 @@ function Navbar() {
                   Projects
                 </Link>
               </li>
-
               <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 cursor-pointer">
                 <Link spy={true} smooth={true} to="contact">
                   Contact
