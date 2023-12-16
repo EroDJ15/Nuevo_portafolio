@@ -23,7 +23,6 @@ const Projects = () => {
       <a href="https://carritojerovic1.netlify.app" target="_blank">
       <img className=" flex items-center justify-center font-semibold rounded-lg p-1 text-center border-2 border-white glow w-[250px] h-[150px] transform hover:scale-110 transition-transform" src="/image/6.jpg" alt="" />
       </a>
-
       
     </div>
   </div>)
