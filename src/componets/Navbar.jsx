@@ -14,31 +14,33 @@ function Navbar() {
       <>
         <div className="text-white font-serif lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
           <ul className="text-center text-xl p-20">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              <Link onClick={HandleClick} activeClass="active" spy={true} smooth={true} to="services">
-                Services
-              </Link>
-            </li>
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              <Link onClick={HandleClick} spy={true} smooth={true} to="projects">
-                Projects
-              </Link>
-            </li>
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              <Link onClick={HandleClick} spy={true} smooth={true} to="about">
-                About
-              </Link>
-            </li>
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              <Link onClick={HandleClick} spy={true} smooth={true} to="contact">
-                Contact
-              </Link>
-            </li>
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+          <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
               <Link onClick={HandleClick} spy={true} smooth={true} to="home">
                 home
               </Link>
             </li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
+              <Link onClick={HandleClick} spy={true} smooth={true} to="about">
+                About
+              </Link>
+            </li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
+              <Link onClick={HandleClick} activeClass="active" spy={true} smooth={true} to="services">
+                Services
+              </Link>
+            </li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
+              <Link onClick={HandleClick} spy={true} smooth={true} to="projects">
+                Projects
+              </Link>
+            </li>
+            
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
+              <Link onClick={HandleClick} spy={true} smooth={true} to="contact">
+                Contact
+              </Link>
+            </li>
+           
           </ul>
         </div>
       </>

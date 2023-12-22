@@ -7,16 +7,17 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Banner = () => {
-  useEffect (()=>{
+  useEffect(() => {
     AOS.init({
       easing: "ease-out-quart",
       delay: 0,
       duration: 750,
-    })
-  },[])
-  
+    });
+  }, []);
+
   return (
-    <div id='home'
+    <div
+      id="home"
       data-aos="fade-up"
       className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center sm:flex-row"
     >
@@ -25,10 +26,10 @@ const Banner = () => {
           Welcome to <span className="text-fuchsia-500">My Website</span>
         </h1>
         <p className="text-left font-serif text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-          natus unde perspiciatis quidem enim nesciunt rem deserunt, dolores
-          incidunt aspernatur veniam magni? Dolores ex molestias minus odio rem,
-          illo vero.
+          Thank you for visiting my website! I'm Jerovic Pino, a dedicated web
+          developer on a mission to create impactful online experiences. Explore
+          and feel free to reach out for any inquiries or collaboration
+          opportunities. Let's make the web a better place together!
         </p>
         <div data-aos="fade-right" className="flex mt-3 gap-2">
           <div className="flex justify-center">
@@ -57,6 +58,7 @@ const Banner = () => {
               <a
                 href="https://jeroviclpv@gmail.com"
                 className="hover:text-fuchsia-500 rounded-full glow p-1 -ml-1 inline-flex items-center cursor-pointer"
+                target="blank"
               >
                 <BiLogoGmail className="text-[28px]" />
               </a>

@@ -25,10 +25,13 @@ const About = () => {
         <div data-aos="fade-left">
           <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-6 py-6 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-            delectus, ea aliquam itaque iusto illo quasi facere adipisci
-            voluptates nobis, quisquam quos! Iste molestiae quod, officiis animi
-            officia nihil aliquid.
+            Hi there! I'm Jerovic Pino, a passionate web developer specializing
+            in Ract, JS, CSS, TAILWIND, HTML,PYTHON. My focus is on clean design
+            and creating intuitive, efficient web solutions. With experience in
+            diverse projects, I'm committed to innovation and continuous
+            improvement. Beyond the screen, I love exploring new technologies
+            and contributing to open-source projects. Ready to bring your next
+            digital idea to life!.
           </h2>
           <div className="flex space-x-0">
             <button className="transition ease-in-out duration-300  relative -top-14 overflow-hidden glow uppercase text-lg hover:bg-fuchsia-800 rounded-lg py-3 px-6 text-white border-2 font-semibold justify-center left-2">

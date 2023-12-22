@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
   <div data-aos="fade-down" className="p-20 flex flex-col items-center justify-center">
-    <h1 id="projects" className="text-fuchsia-500 font-semibold text-[38px]">Projects</h1>
+    <h1 id="projects" className="text-fuchsia-500 font-semibold text-[38px] p-20">Projects</h1>
     <div className="text-white font-normal grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-24 place-items-center p-8">
       <a href="https://pokedexero.netlify.app"target="_blank">
       <img className=" flex items-center justify-center font-semibold rounded-lg p-1 text-center border-2 border-white glow w-[250px] h-[150px] transform hover:scale-110 transition-transform" src="/image/1.jpg" alt="Pokedex, creada con JS, React, Talwaind, React Router Dom" />
