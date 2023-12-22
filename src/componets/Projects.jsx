@@ -5,9 +5,19 @@ const Projects = () => {
   <div data-aos="fade-down" className="p-20 flex flex-col items-center justify-center">
     <h1 id="projects" className="text-fuchsia-500 font-semibold text-[38px] p-20">Projects</h1>
     <div className="text-white font-normal grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-24 place-items-center p-8">
-      <a href="https://pokedexero.netlify.app"target="_blank">
-      <img className=" flex items-center justify-center font-semibold rounded-lg p-1 text-center border-2 border-white glow w-[250px] h-[150px] transform hover:scale-110 transition-transform" src="/image/1.jpg" alt="Pokedex, creada con JS, React, Talwaind, React Router Dom" />
-      </a>
+
+    <a href="https://pokedexero.netlify.app" target="_blank">
+  <div className="flex flex-col items-center justify-center relative">
+    <img
+      className="rounded-lg p-1 text-center border-2 border-white glow w-[250px] h-[150px] transform hover:scale-110 transition-transform"
+      src="/image/1.jpg"
+      alt="Pokedex, creada con JS, React, Talwaind, React Router Dom"
+    />
+    <div className="relative -bottom-1 w-auto rounded-lg bg-black bg-opacity-40 text-white text-center p-2 border-1 mt-2">
+      <p className="font-serif text-sm p-1 px-4">JS-REACT-TAILWINDCSS</p>
+    </div>
+  </div>
+</a>
       <a href="https://rickandmortywikierodj.netlify.app" target="_blank">
       <img className="flex items-center justify-center font-semibold rounded-lg p-1 text-center border-2 border-white glow w-[250px] h-[150px] transform hover:scale-110 transition-transform" src="/image/2.jpg" alt="" />
       </a>
