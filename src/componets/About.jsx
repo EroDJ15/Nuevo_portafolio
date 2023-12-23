@@ -26,7 +26,7 @@ const About = () => {
           <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-6 py-6 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
             {" "}
             Hi there! I'm Jerovic Pino, a passionate web developer specializing
-            in Ract, JS, CSS, TAILWIND, HTML,PYTHON. My focus is on clean design
+            in REACT, JS CSS, TAILWIND, HTML,PYTHON. My focus is on clean design
             and creating intuitive, efficient web solutions. With experience in
             diverse projects, I'm committed to innovation and continuous
             improvement. Beyond the screen, I love exploring new technologies
