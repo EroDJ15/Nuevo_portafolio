@@ -69,7 +69,7 @@ function Navbar() {
           <div data-aos="fade-right">
             <img
               src="/image/logo1.png"
-              className="left-1 lg:relative w-16 h-16 lg:w-25 lg:h-25 mt-2"
+              className="left-auto lg:relative w-14 h-14 lg:w-25 lg:h-25 mt-4"
               alt=""
             />
           </div>
@@ -108,7 +108,7 @@ function Navbar() {
       </div>
       <div>{click && content}</div>
       <button
-        className="sm:hidden transition text-white absolute top-6 right-6"
+        className="sm:hidden transition text-white absolute top-8 right-10"
         onClick={HandleClick}
       >
         {click ? <FaTimes /> : <FaGripVertical />}

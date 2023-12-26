@@ -5,11 +5,11 @@ const About = () => {
     <div
       data-aos="fade-right"
       id="about"
-      className="px-10 lg:px-60 p-20 lg:mt-20"
+      className="px-10 lg:px-60 p-40 lg:mt-12"
       style={{ position: "relative", top: "-80px", left: "5px" }}
     >
       <div>
-        <h1 className="text-[38px] px-2  text-white font-semibold mb-6 leading-normal pt-4 lg:text-center justify-items-center lg:items-center">
+        <h1 className="text-[38px] px-2  text-white font-semibold mb-6 leading-normal lg:text-center justify-items-center lg:items-center p-4 lg:pt-4">
           <span className="text-fuchsia-500">About</span> Me
         </h1>
       </div>
@@ -23,8 +23,8 @@ const About = () => {
           alt=""
         />
         <div data-aos="fade-left">
-          <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-6 py-6 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
-            {" "}
+          <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-1 py-2 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
+             {/* insert clean and efficient web solution content here */}
             Hi there! I'm Jerovic Pino, a passionate web developer specializing
             in REACT, JS CSS, TAILWIND, HTML,PYTHON. My focus is on clean design
             and creating intuitive, efficient web solutions. With experience in
@@ -36,6 +36,7 @@ const About = () => {
           <div className="flex space-x-0">
             <button className="transition ease-in-out duration-300  relative -top-14 overflow-hidden glow uppercase text-lg hover:bg-fuchsia-800 rounded-lg py-3 px-6 text-white border-2 font-semibold justify-center left-2">
               H/V
+               {/* insert H/V content here */}
             </button>
           </div>
         </div>

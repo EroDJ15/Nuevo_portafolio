@@ -21,7 +21,7 @@ function App() {
         <Contact/>
        <Footer/>
 <div>
-       <footer className='flex flex-col items-center -mt-14 p-1 bg-primary dark:text-cyan-50 '>
+       <footer className='flex flex-col items-center -mt-8 p-4 bg-primary dark:text-cyan-50 '>
         <p className="text-white text-xs font-semibold text-center">
           &copy; 2023 Todos los derechos reservados
         </p>
@@ -29,7 +29,7 @@ function App() {
           href="https://github.com/EroDJ15"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white text-xs font-semibold flex items-center mt-1 p-2"
+          className="text-white text-xs font-semibold flex items-center mt-1 p-6"
         >
           <img
             src="https://img.icons8.com/ios-filled/50/000000/github.png"
