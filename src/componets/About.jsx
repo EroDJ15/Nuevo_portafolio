@@ -24,7 +24,7 @@ const About = () => {
         />
         <div data-aos="fade-left">
           <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-1 py-2 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
-             {/* insert clean and efficient web solution content here */}
+            {/* insert clean and efficient web solution content here */}
             Hi there! I'm Jerovic Pino, a passionate web developer specializing
             in REACT, JS CSS, TAILWIND, HTML,PYTHON. My focus is on clean design
             and creating intuitive, efficient web solutions. With experience in
@@ -34,10 +34,16 @@ const About = () => {
             digital idea to life!.
           </h2>
           <div className="flex space-x-0">
-            <button className="transition ease-in-out duration-300  relative -top-14 overflow-hidden glow uppercase text-lg hover:bg-fuchsia-800 rounded-lg py-3 px-6 text-white border-2 font-semibold justify-center left-2">
-              H/V
-               {/* insert H/V content here */}
-            </button>
+            <a
+              a
+              href="https://drive.google.com/file/d/1kPPNiRk2WdB0nvCc1sxer4bnYacVNbN-/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="transition ease-in-out duration-300  relative -top-14 overflow-hidden glow uppercase text-lg hover:bg-fuchsia-800 rounded-lg py-3 px-6 text-white border-2 font-semibold justify-center left-2">
+                H/V
+              </button>
+            </a>
           </div>
         </div>
       </div>
