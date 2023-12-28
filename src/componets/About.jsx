@@ -36,7 +36,7 @@ const About = () => {
           <div className="flex space-x-0">
             <a
               a
-              href="https://drive.google.com/file/d/1WLY7B9_pu0qyQS7SKsj1LPWw8RBGd8EG/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1WLY7B9_pu0qyQS7SKsj1LPWw8RBGd8EG/view?usp=drive_linkgi"
               target="_blank"
               rel="noopener noreferrer"
             >
