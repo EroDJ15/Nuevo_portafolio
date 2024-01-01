@@ -23,13 +23,15 @@ const About = () => {
           alt=""
         />
         <div data-aos="fade-left">
-          <h2 className="space-x-2 text-lg font-serif mb-20 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-1 py-2 text-left gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
+          <h2 className="space-x-4 lg:text-lg text-justify lg:text-left p-4 font-serif mb-16 leading-normal lg:py-1 flex-row lg:items-start text-white lg:px-2 px-1 py-2 gap-5 flex lg:flex-row justify-between lg:gap-28 items-center">
             {/* insert clean and efficient web solution content here */}
             Hi there! I'm Jerovic Pino, a passionate web developer specializing
-            in REACT, JS CSS, TAILWIND, HTML,PYTHON. My focus is on clean design
+            in REACT, JS CSS, TAILWIND, HTML,PYTHON. 
+            <br />My focus is on clean design
             and creating intuitive, efficient web solutions. With experience in
             diverse projects, I'm committed to innovation and continuous
-            improvement. Beyond the screen, I love exploring new technologies
+            improvement. 
+            <br />Beyond the screen, I love exploring new technologies
             and contributing to open-source projects. Ready to bring your next
             digital idea to life!.
           </h2>

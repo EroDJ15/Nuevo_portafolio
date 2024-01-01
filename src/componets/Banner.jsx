@@ -19,13 +19,13 @@ const Banner = () => {
     <div
       id="home"
       data-aos="fade-up"
-      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center sm:flex-row p-4"
+      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center sm:flex-row p-6"
     >
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items text-white">
-        <h1 className="text-[40px] font-semibold mb-4 leading-normal text-left">
+        <h1 className="text-[44px] font-semibold mb-4 leading-normal text-left">
           Welcome to <span className="text-fuchsia-500">My Website</span>
         </h1>
-        <p className="text-left font-serif text-lg">
+        <p className="lg:text-left text-justify font-serif text-xl p-4 leading-normal mb-2">
           Thank you for visiting my website! I'm Jerovic Pino, a dedicated web
           developer on a mission to create impactful online experiences. Explore
           and feel free to reach out for any inquiries or collaboration

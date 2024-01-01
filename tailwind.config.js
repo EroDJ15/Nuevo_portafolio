@@ -12,11 +12,14 @@ module.exports = {
         height648: "648px",
         height750: "750px",
       },
+
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
         serif: ["lato", "sans-serif"],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss')
+  ],
 };

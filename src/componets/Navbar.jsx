@@ -108,11 +108,12 @@ function Navbar() {
       </div>
       <div>{click && content}</div>
       <button
-        className="sm:hidden transition text-white absolute top-8 right-10"
-        onClick={HandleClick}
-      >
-        {click ? <FaTimes /> : <FaGripVertical />}
-      </button>
+  className="sm:hidden transition text-white absolute top-8 right-10"
+  onClick={HandleClick}
+  title={click ? "Cerrar menú" : "Abrir menú"}
+>
+  {click ? <FaTimes /> : <FaGripVertical />}
+</button>
     </nav>
   );
 }
