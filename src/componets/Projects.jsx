@@ -74,6 +74,14 @@ const Projects = () => {
       alt: "ecommerce APP creada con JS - HTML - CSS3",
       description:"I designed this e-commerce site to provide a visually appealing and user-friendly shopping experience. Utilizing JS for dynamic features enhances functionality, while the overall aesthetic is achieved through HTML and CSS3. This project showcases my skills in creating visually appealing and functional web solutions.",
       stack: "JS - HTML - CSS3",
+    },
+    {
+      title: "APP MOVIES",
+      link: "https://bejewelled-pegasus-a063d8.netlify.app/",
+      image: "/image/7.jpg",
+      alt: "ecommerce APP creada con JS - HTML - CSS3",
+      description:"I designed this movie-app Utilizing JS for dynamic features enhances functionality, while the overall aesthetic is achieved through HTML and CSS3. This project showcases my skills in creating visually appealing and functional web solutions.",
+      stack: "JS - HTML - CSS3",
     }
 
     // Agrega más proyectos aquí
